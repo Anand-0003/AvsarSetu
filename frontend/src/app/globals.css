@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --brand-emerald: #0F3832;
+  --brand-emerald-dark: #0A2824;
+  --brand-emerald-light: #14493F;
+  --brand-sage: #E8F1EE;
+  --brand-sage-border: #D5E4E0;
+  --brand-sage-text: #115E59;
+  --brand-gold: #D97706;
+  --brand-gold-light: #FEF3C7;
+  --brand-gold-dark: #B45309;
+  
+  --parchment: #FBFBFA;
+  --parchment-surface: #F4F6F4;
+  --parchment-card: #FFFFFF;
+}
+
+body {
+  background-color: var(--parchment);
+  color: #0F172A;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .font-sora {
+  font-family: 'Sora', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+/* Custom elevations matching Stitch screen 2 */
+.shadow-subtle {
+  box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04), 0 1px 2px -1px rgba(15, 23, 42, 0.04);
+}
+
+.shadow-card {
+  box-shadow: 0 4px 16px -2px rgba(15, 56, 50, 0.05), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
+}
+
+.shadow-card-hover:hover {
+  box-shadow: 0 12px 28px -4px rgba(15, 56, 50, 0.09), 0 4px 10px -2px rgba(15, 23, 42, 0.04);
+}
+
+.shadow-dock {
+  box-shadow: 0 10px 30px -5px rgba(15, 56, 50, 0.08), 0 4px 6px -2px rgba(15, 23, 42, 0.02);
+}
